@@ -9,37 +9,51 @@
         <div class="automation-heading nav">
             <h3>HEC RAS Automation</h3>
         </div>
-        <div class="automation-content">
-            <label for="start">Start date:</label>
-            <input type="date" id="start-date" name="start-date"
-                   value="2018-07-22"
-                   min="2018-01-01" max="2018-12-31">
-        </div>
-        <div class="automation-content">
-            <label for="start">End date:</label>
-            <input type="date" id="end-date" name="end-date"
-                   value="2018-07-22"
-                   min="2018-01-01" max="2018-12-31">
-        </div>
-        <div class="automation-content">
-            <label for="left_long">Left Longtitude:</label>
-            <input type="text" id="left_long" name="left_long" required
-                   minlength="2" maxlength="8" size="10">
-        </div>
-        <div class="automation-content">
-            <label for="right_long">Right Longtitude:</label>
-            <input type="text" id="right_long" name="right_long" required
-                   minlength="2" maxlength="8" size="10">
-        </div>
-        <div class="automation-content">
-            <label for="bottom_lat">Bottom Latitude:</label>
-            <input type="text" id="bottom_lat" name="bottom_lat" required
-                   minlength="2" maxlength="8" size="10">
-        </div>
-        <div class="automation-content">
-            <label for="top_lat">Top Latitude</label>
-            <input type="text" id="top_lat" name="top_lat" required
-                   minlength="2" maxlength="8" size="10">
-        </div>
+        <form action="" method="post" class="automation-submit">
+            <div class="automation-content">
+                <label for="start_date">Start date:</label>
+                <input type="date" id="start_date" name="start_date"
+                       value="2018-07-22"
+                       min="2018-01-01" max="2018-12-31">
+            </div>
+            <div class="automation-content">
+                <label for="end_date">End date:</label>
+                <input type="date" id="end_date" name="end-date"
+                       value="2022-07-22">
+            </div>
+            <div class="automation-content">
+                <label for="left_long">Left Longtitude:</label>
+                <input type="text" id="left_long" name="left_long" required
+                       minlength="2" maxlength="8" size="10">
+            </div>
+            <div class="automation-content">
+                <label for="right_long">Right Longtitude:</label>
+                <input type="text" id="right_long" name="right_long" required
+                       minlength="2" maxlength="8" size="10">
+            </div>
+            <div class="automation-content">
+                <label for="bottom_lat">Bottom Latitude:</label>
+                <input type="text" id="bottom_lat" name="bottom_lat" required
+                       minlength="2" maxlength="8" size="10">
+            </div>
+            <div class="automation-content">
+                <label for="top_lat">Top Latitude</label>
+                <input type="text" id="top_lat" name="top_lat" required
+                       minlength="2" maxlength="8" size="10">
+            </div>
+            <div class="automation-content">
+                <label for="type">Type of the data:</label>
+
+                <select id="type">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Historical">Historical</option>
+                    <option value="Forecast">Forecast</option>
+                </select>
+
+            </div>
+            <div class="automation-content">
+                <input type="submit" value="Generate">
+            </div>
+        </form>
     </div>
 {% endblock %}
