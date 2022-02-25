@@ -3,7 +3,7 @@ import os, requests
 
 
 def get_current_data(date, leftlon, rightlon, toplat, bottomlat):
-    destination = "C:/Users/chand/Downloads/HEC_DSS_Automation/Vortex/examples/src/main/jython/grib2/"
+    destination = "./grib2"
     missing_dates = []
     hour = 0
 
