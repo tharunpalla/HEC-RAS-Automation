@@ -1,9 +1,7 @@
 from mil.army.usace.hec.vortex.convert import GridToPointConverter
 from mil.army.usace.hec.vortex import Options
 from mil.army.usace.hec.vortex.io import DataReader
-import os
 from glob import glob
-from java.nio.file import Path
 from java.nio.file import Paths
 
 #DSS Grid Files to convert to time series

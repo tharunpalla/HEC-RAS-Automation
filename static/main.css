@@ -4,6 +4,11 @@
     justify-content: center;
     margin-bottom: 1%;
 }
+.automation-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
 
 .automation-headline {
     display: flex;
@@ -13,7 +18,7 @@
     padding: 1rem;
 }
 
-.automation-form {
+.automation-submit {
     width: 30%;
     margin: auto;
     display: flex;
