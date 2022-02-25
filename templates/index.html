@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>NCSU BAE</title>
+{% endblock %}
+
+{% block body %}
+    <div class="automation-body">
+        <div class="automation-heading nav">
+            <h3>HEC RAS Automation</h3>
+        </div>
+        <div class="automation-content">
+            <label for="start">Start date:</label>
+            <input type="date" id="start-date" name="start-date"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31">
+        </div>
+        <div class="automation-content">
+            <label for="start">End date:</label>
+            <input type="date" id="end-date" name="end-date"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31">
+        </div>
+    </div>
+{% endblock %}

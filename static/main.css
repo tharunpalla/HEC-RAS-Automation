@@ -1,0 +1,40 @@
+.automation-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.automation-headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.automation-form{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+.automation-table{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: max-content;
+    padding: 0.5rem;
+}
+.automation-add-label{
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+.automation-content-empty{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    justify-content: center;
+    padding: 6%;
+}
